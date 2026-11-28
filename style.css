@@ -20,3 +20,18 @@ th, td {
 th {
   background: #f0f0f0;
 }
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1a5fb4;
+  font-weight: bold;
+}
